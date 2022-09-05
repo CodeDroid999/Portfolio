@@ -1,9 +1,41 @@
+body{
+  margin: 0px;
+  padding:0px;
+}
+
+header {
+  margin: 0px;
+  padding:0px;
+  background: url('src\videos\vid-background.mp4') no-repeat center center;
+}
+
+h2{
+  font-size: 5em;
+}
+h3{
+  font-size: 3em;
+}
+
+#video{
+  box-sizing: border-box;
+  background: url('src\videos\vid-background.mp4') no-repeat center cover;
+  display:block !important;
+  width:100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
+  
   background-color: rgb(232, 224, 224);
+  position:absolute;
   overflow: hidden;
   width: 100%;
   float: right;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Style the links inside the navigation bar */
@@ -13,7 +45,7 @@ color: #8f0a0a;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
-font-size: 17px;
+font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -38,30 +70,81 @@ color: white;
 
 .section {
   display: block;
+  position:relative;
+  width:100%;
+  height:800px;
 }
+
+.hello-section {
+  display: block; 
+  position:relative;
+  width:100vw;
+  height:400px;
+}
+
+.resume-section {
+  background-image: url('src\images\bg-image.jpg;');
+  display: block;
+  position: relative;
+  background-color: #ddd;
+  width:100vw;
+  height:400px;
+}
+
+
+.skills-section {
+  display: block;
+  position: relative;
+  background-color: rgb(26, 25, 25);
+  width:100vw;
+  height:400px;
+}
+
+
+.contacts-section {
+  display: block;
+  background-color: #ddd;
+}
+
 
 .section {
   display: block;
 }
 
-.section {
+.container{
   display: block;
+  margin: 30px;
+  padding: 5px 0px 5px 10px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.section {
+.about-me{
   display: block;
+  margin: 30px;
+  padding:5px 0px 5px 10px;
+  align-items: center;
+  justify-content: centerS;
 }
 
-
-.section {
-  display: block;
+.video{
+  margin: 0px;
+  padding: 0px;
+  display:block !important;
 }
 
-
-.section {
-  display: block;
+.column {
+  float: left;
+  ;
 }
 
+.left {
+  width: 25%;
+  background-color: black;
+}
 
-
+.right {
+  width: 75%;
+  background-color: #fff;
+}
