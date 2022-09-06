@@ -16,38 +16,85 @@ body{
   height: 100px;
   padding: 0px;
   margin: 0px;
-  top: 100px;
-  left: 300px;
-  color:maroon !important;
+  top: 50px;
+  left:0px;
+  color:white !important;
 }
 
 #header-name{
   float:left; 
+  padding-top:75px;
+  padding-right: 75px;
+  padding-bottom: 0px;
+ padding-left:100px;
 }
 
 #header-title{
   float:left; 
   clear: left;
+  margin:0px;
+  padding-top:0px;
+  padding-right: 75px;
+  padding-bottom: 0px;
+ padding-left:100px;
 }
 
 #header-social{
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   float:left; 
   clear: left;
+  margin:0px;
+  padding-top:0px;
+  padding-right: 75px;
+  padding-bottom: 0px;
+  padding-left:100px;
+  height:10px;
+}
+
+#header-social-icons{
+  display: block;
+  padding-top:0px;
+  padding-right: 75px;
+  padding-bottom: 0px;
+  padding-left:100px;
+  
+}
+
+.icons {
+  color: red;
+}
+i {
+  text-shadow: 2px 4px 6px orange;
+}
+.fa{
+  font-size: 50px;
 }
 h1{
   font-size: 5em;
   font-family: roboto;
+  padding:5px;
+  margin:0px;
 }
 h2{
   font-size: 3em;
+  padding:5px;
+  margin:0px;
 }
 h3{
   font-size: 3em;
+}
+
+#header-avatar {
+  box-sizing: border-box;
+  display: block;
+  margin: 0px;
+  padding:0px;
+  border-radius: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 50vw;
 }
 
 
