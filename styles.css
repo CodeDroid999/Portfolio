@@ -37,6 +37,7 @@ body{
   padding-right: 75px;
   padding-bottom: 0px;
  padding-left:100px;
+ min-width: 630px;
 }
 
 #header-social{
