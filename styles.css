@@ -1,14 +1,56 @@
+html{
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
 body{
   margin: 0px;
   padding:0px;
 }
+.header{
+  display:flex !important;
+  position: relative;
+  box-sizing: border-box;
+  width:100vw;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+  top: 100px;
+  left: 300px;
+  color:maroon !important;
+}
 
-h2{
+#header-name{
+  float:left; 
+}
+
+#header-title{
+  float:left; 
+  clear: left;
+}
+
+#header-social{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  float:left; 
+  clear: left;
+}
+h1{
   font-size: 5em;
+  font-family: roboto;
+}
+h2{
+  font-size: 3em;
 }
 h3{
   font-size: 3em;
 }
+
+
 
 footer{
   display:flex !important;
