@@ -48,26 +48,25 @@ body{
   padding-right: 75px;
   padding-bottom: 0px;
   padding-left:100px;
-  height:10px;
-}
-
+  height:100px;
+} 
+/*
 #header-social-icons{
   display: block;
   padding-top:0px;
   padding-right: 75px;
   padding-bottom: 0px;
   padding-left:100px;
+  height:150px;
   
-}
+}*/
 
-.icons {
-  color: red;
-}
 i {
-  text-shadow: 2px 4px 6px orange;
+  text-shadow: 2opx 40px 60px orange;
+  height:120px !important;
 }
 .fa{
-  font-size: 50px;
+  font-size: 5000px;
 }
 h1{
   font-size: 5em;
@@ -82,6 +81,13 @@ h2{
 }
 h3{
   font-size: 3em;
+}
+
+p{
+  margin: 0px;
+  padding:5px;
+  height:120px;
+  font-size: 1em;;
 }
 
 #header-avatar {
