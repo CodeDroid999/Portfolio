@@ -11,7 +11,24 @@ body{
   text-align:center;
 }
 
+h2{
+  text-align: center;
+  font-size: 2em;
+  padding:10px;
+  width:100% !important;
+  height: auto;
+}
 
+h3{
+  text-align:left;
+  font-size: 1.5em;
+  align-items: center;
+  padding-right: 10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  height:auto;
+}
 
 nav{
   background-color: rgb(232, 224, 224);
@@ -94,6 +111,10 @@ li a {
   width:100%;
   height:100%;
   object-fit: cover;
+}
+
+.about-paragraph{
+  font-size: 1em;
 }
 
 
