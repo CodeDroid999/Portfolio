@@ -1,289 +1,110 @@
 html{
-  height: 0px;
-  margin: 0px;
-  padding: 0px;
+  margin:0px;
+  padding:0px;
+  border-radius: -10px;
 }
 
 body{
-  margin: 0px;
+  margin:0px;
   padding:0px;
-}
-.header{
-  display:flex !important;
-  position: relative;
-  box-sizing: border-box;
-  width:100vw;
-  height: 100px;
-  padding: 0px;
-  margin: 0px;
-  top: 50px;
-  left:0px;
-  color:white !important;
-}
-
-#header-name{
-  float:left; 
-  padding-top:75px;
-  padding-right: 75px;
-  padding-bottom: 0px;
- padding-left:100px;
-}
-
-#header-title{
-  float:left; 
-  clear: left;
-  margin:0px;
-  padding-top:0px;
-  padding-right: 75px;
-  padding-bottom: 0px;
- padding-left:100px;
- min-width: 630px;
-}
-
-#header-social{
-  display: block;
-  float:left; 
-  clear: left;
-  margin:0px;
-  padding-top:0px;
-  padding-right: 75px;
-  padding-bottom: 0px;
-  padding-left:100px;
-  height:100px;
-} 
-/*
-#header-social-icons{
-  display: block;
-  padding-top:0px;
-  padding-right: 75px;
-  padding-bottom: 0px;
-  padding-left:100px;
-  height:150px;
-  
-}*/
-
-i {
-  text-shadow: 2opx 40px 60px orange;
-  height:120px !important;
-}
-.fa{
-  font-size: 5000px;
-}
-h1{
-  font-size: 5em;
-  font-family: roboto;
-  padding:5px;
-  margin:0px;
-}
-h2{
-  font-size: 3em;
-  padding:5px;
-  margin:0px;
-}
-h3{
-  font-size: 3em;
-}
-
-p{
-  margin: 0px;
-  padding:5px;
-  height:120px;
-  font-size: 1em;;
-}
-
-#header-avatar {
-  box-sizing: border-box;
-  display: block;
-  margin: 0px;
-  padding:0px;
-  border-radius: 10%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
+  border-radius: -10px;
+  text-align:center;
 }
 
 
 
-footer{
-  display:flex !important;
-  box-sizing: border-box;
-  background-color: #ddd;
-  width:100vw;
-  height: 100px;
-  padding: 0px;
-  margin: 0px;
-}
-
-
-#video{
-  box-sizing: border-box;
-  background: url('src\videos\vid-background.mp4') no-repeat center cover;
-  display:block !important;
-  width:100vw;
-  height: 100vh;
-  padding: 0px;
-  margin: 0px;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
+nav{
   background-color: rgb(232, 224, 224);
-  position:absolute;
-  overflow: hidden;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  width: 100%;
-  float: right;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-float: left;
-color: #8f0a0a;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 20px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-background-color: #ddd;
-color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-background-color: #ddd;
-color: white;
-}
-
-/*sticky*/
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-
-
-.hello-section {
-  display: block; 
-  position:relative;
-  width:100vw;
-  height:300px;
-}
-
-#hello{
-  box-sizing: border-box; /*Not necessary in this situation*/
-  display: block; /*Not necessary, but we do want it this way*/
-  width: 100vw;  /*Not necessary, but we do want it this way*/
-  height: 100vh; /*Necessary.  100vh = 100% of the viewport height*/
-  padding: 0; /* No padding */
-  margin: 0; /* No margins */
-  background: url('src\videos\vid-background.mp4') no-repeat center center;  
-  /* Shorthand: image, repeat, X align, Y align. */
-  background-size: cover; /* Cover all available space*/
-}
-
-
-.resume-section {
-  background-image: url('https://res.cloudinary.com/dil0bx3qx/image/upload/v1662461844/background_n5zufq.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: block;
-  position: relative;
-  width:100vw;
-  height:400px;
-  margin: 0px;
-  padding: 0px;
-}
-
-#resume{
-  display: block;
-  margin: 0px;
-  padding: 0px;
-  align-items: center;
-  justify-content: center;
-}
-
-.skills-section {
-  background-image: url('https://res.cloudinary.com/dil0bx3qx/image/upload/v1662461844/background_n5zufq.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: block;
-  position: relative;
-  width:100vw;
-  height:400px;
-}
-
-.portfolio-section {
-  background-image: url('https://res.cloudinary.com/dil0bx3qx/image/upload/v1662462284/bg-image-1_n0yvoy.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: block;
-}
-
-
-.contacts-section {
-  background-image: url('https://res.cloudinary.com/dil0bx3qx/image/upload/v1662456947/bg-image_wmlcbb.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: block;
-  position: relative;
-  width:100vw;
-  height:400px;
-}
-
-
-.about-me{
-  display: block;
-  margin: 30px;
-  padding: 0px;
-  align-items: center;
-  justify-content: centerS;
-}
-
-video {
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-
-}
-.video-wrapper {
-  border: 2px solid #000;
-  width: 300px;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.column {
   float: left;
-  ;
+  width:100%;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
 }
 
-.left {
-  width: 25%;
-  background-color: black;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:100%;
+  background-color: #dddddd;
+} 
+
+li {
+  display: block;
+  float: left;
+  padding-bottom: 5px;
+  padding-top:5px;
+  width:100%;
 }
 
-.right {
-  width: 75%;
-  background-color: #fff;
+li a {
+  font-size: 1.5em;
+  color:black;
+  min-height: max-content;
+  padding:25px;
+  text-decoration: none;
+  display: block;
+  }
+
+  
+  a:hover {
+    color: white;
+    background-color: rgb(84, 83, 81);
+  }
+
+  a.active{
+    color: white;
+    background-color: rgb(84, 83, 81);
+  }
+
+
+#navbar{
+  display: flex;
+  float:left;
+  margin:0px;
+  padding:0px;
+  min-width:50%;
+  min-height: 500px;
+}
+
+#brand{
+  display:flex;
+  float:right;
+  margin: 0px;
+  padding:0px;
+  min-width: 50%;
+  min-height:505px;
+}
+
+.row{
+  padding:0px;
+  margin: 0px;
+  min-width: 100%;
+  min-height: 500px;
+}
+
+.col-md-6{
+  margin:0px;
+  padding:0px;
+  min-height:500px;
+}
+.brand{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+
+.button {
+  border: none;
+  color: rgb(175, 11, 11);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
