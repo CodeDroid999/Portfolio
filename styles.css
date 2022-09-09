@@ -13,7 +13,7 @@ body {
 
 h2 {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3.0em;
   padding: 10px;
   width: autoS;
   height: auto;
@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   text-align: left;
-  font-size: 3.0em;
+  font-size: 2.5em;
   align-items: center;
   padding-right: 10px;
   padding-top: 1px;
@@ -34,7 +34,7 @@ h3 {
 
 h4{
   text-align: left;
-  font-size: 2.5em;
+  font-size: 2.oem;
   align-items: center;
   padding-right: 20px;
   padding-top: 1px;
@@ -71,9 +71,18 @@ h6{
   color: rgb(22, 22, 22); 
 }
 
+hr{
+  padding:5px;
+  margin:0px;
+  color:black;
+  background-color: #545353;
+}
+
 footer{
   display:inline !important;
   height:100px !important;
+  background-color: rgb(97, 96, 96) !important;
+  color:maroon;
 }
 
 
@@ -90,7 +99,7 @@ nav {
   justify-content: center;
 }
 
-ul {
+ul ,span a{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -344,9 +353,10 @@ button:hover {
   margin:0px;
   width:auto;
   height: auto;
-  position: relative;
-  float:left;
-  display: inline;
+  position: relative !important;
+  display:float !important;
+  float:left !important;
+  display: block !important;
 }
 
 .col-md-2{
@@ -387,4 +397,56 @@ button:hover {
   float:right;
 }
 
+.container{
+   padding-top: 15px;
+   padding-bottom: 10px;
+}
 
+#social-links{
+  padding:0px;
+  margin:0px;
+  display:block;
+  align-items: left;
+  justify-content: left;
+  text-align:center
+}
+
+textarea , input{
+  width:100%;
+}
+
+#contacts.row{
+  margin:0px;
+  padding:0px;
+}
+
+#contacts-liks.col-md-6{
+  padding:5px;
+}
+
+label{
+  width:100%;
+  padding:5px;
+  text-align: left;
+}
+
+article{
+  padding:20px;
+}
+
+form_email{
+  height: 1em;
+}
+ br{
+  padding:5px
+ }
+ #skills.row{
+  display:block !important;
+  position:relative;  
+}
+
+
+
+#skills.col-md-12{
+  display:inline !important;
+}
