@@ -77,8 +77,7 @@ hr {
   color: #333;
 }
 
-footer {
-  display: inline !important;
+#footer {
   height: 100px !important;
   background-color: rgb(97, 96, 96) !important;
   color: maroon;
@@ -207,7 +206,7 @@ nav a.active {
   position: relative;
   margin: 0px;
   padding: 0px;
-  min-height: 500px;
+  height:auto;
 }
 
 /* Styling the section headers */
@@ -217,6 +216,10 @@ nav a.active {
   padding: 0px;
   height: auto;
   width: 100%;
+}
+
+#contacts{
+  background-color: rgb(149, 148, 146);
 }
 
 /* Styling the sub-section headers */
@@ -264,6 +267,9 @@ nav a.active {
   float: left;
   height: auto;
   min-width: 47%;
+}
+#contacts-links{
+  padding-bottom:50px !important;
 }
 
 /* Styling the conacts form */
@@ -336,15 +342,8 @@ button:hover {
   justify-content: left;
 }
 
-/* Styling the employment-list element*/
-.employment-list {
-  float: left;
-  align-items: left;
-  justify-content: left;
-}
-
-/* Styling the education-list element*/
-.education-list {
+/* Styling the items in resume list element*/
+.employment-list,.education-list,.voluntary-list, .internships-list{
   float: left;
   align-items: left;
   justify-content: left;
@@ -388,6 +387,7 @@ button:hover {
   min-width: 47%;
   padding: 0px;
   margin: 0px;
+  diplay:flex;
 }
 
 /* Styling the project1 and project2 */
@@ -397,7 +397,6 @@ button:hover {
   margin: 5px;
   height: auto;
   position: relative;
-  display: float;
   float: left;
 }
 
@@ -408,7 +407,6 @@ button:hover {
   margin: 5px;
   height: auto;
   position: relative;
-  display: float;
   float: right;
 }
 
@@ -420,7 +418,7 @@ button:hover {
 
 /* Styling the social links*/
 #social-links {
-  padding: 0px;
+  padding: 50px 15px 180px 15px;
   margin: 0px;
   display: block;
   align-items: left;
@@ -477,4 +475,14 @@ article {
   display: block;
   align-items: center;
   justify-content: center;
+}
+
+.resume-contents{
+  justify-content: left;
+  align-items: left;
+  padding-bottom: 40px;
+}
+
+.card-img-top{
+  height:300px;
 }
