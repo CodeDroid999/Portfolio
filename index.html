@@ -5,39 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/1fc7664841.js" crossorigin="anonymous"></script>
-    <title>JohnMwega</title>
     <link rel="icon" href="https://res.cloudinary.com/dil0bx3qx/image/upload/v1662538390/logo_eo4g3z.jpg"
         type="image/x-icon">
     <link rel="stylesheet" href="/styles.css">
+    <title>JohnMwega</title>
 </head>
 
 <body>
+    <!--header-->
+    <div class="container-fluid bg-dark text-white">
+        <nav id="navbar">
+            <div class="nav-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contacts">Contacts</a>
+                </divv>
+        </nav>
+    </div>
+    <!--header-->
+
     <!--home section-->
-    <section id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6" id="navbar">
-                    <nav>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contacts">Contacts</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-md-6" id="brand">
-                    <div class="brand">
-                        <img src="src\images\logo.jpeg" alt="logo"></object>
-                    </div>
-                </div>
+    <section>
+
+        <div id="home">
+            <div class="col" id="avatar">
+                <img src="src\images\top-half-avatar.jpeg" alt="logo" width="100%">
+            </div>
+            <div class="col" id="brand">
+                <img src="src\images\logo.jpeg" alt="logo" width="100%">
             </div>
         </div>
+
     </section>
-    <hr>
+
     <!--home-section-->
 
     <!--about-section-->
@@ -48,33 +56,35 @@
                     <h2>About me</h2><br>
                 </div>
             </div>
-            <div class="row about-me" id="about-me">
-                <div class="col-md-12">
-                    <div class="subsection-header">
-                        <h3>HI___</h3><br>
+            <div class="container">
+                <div class="row about-me" id="about-me">
+                    <div class="col-md-12">
+                        <div class="subsection-header">
+                            <h3>HI___</h3><br>
+                        </div>
+                        <article class="about-paragraph">
+                            <p text-align="center">
+                                I am a Fullstack Web developer able to build a Web presence from the ground up - from
+                                concept, navigation,layout and programming to UX and SEO. Skilled at writing
+                                well-designed, testable
+                                and efficient code using current best practices in Web development. Fast learner, hard
+                                worker
+                                and team player who is proficient in an array of scripting languages and multimedia Web
+                                tools.
+                            </p>
+                            <p> I can quickly learn new technology with ease.</p>
+                        </article>
+                        <article class="button">
+                            <button type="button">Download CV</button>
+                        </article>
                     </div>
-                    <article class="about-paragraph">
-                        <p text-align="center">
-                            I am a Fullstack Web developer able to build a Web presence from the ground up - from
-                            concept,
-                            navigation,layout and programming to UX and SEO. Skilled at writing well-designed, testable
-                            and
-                            efficient code using current best practices in Web development. Fast learner, hard worker
-                            and team player who
-                            is proficient in an array of scripting languages and multimedia Web tools.
-                        </p>
-                        <p> I can quickly learn new technology with ease.</p>
-                    </article>
-                    <article class="button">
-                        <button type="button">Download CV</button>
-                    </article>
-                </div>
 
+                </div>
             </div>
         </div>
         <div>
     </section>
-    <hr>
+
     <!--about-section-->
     <!--portfolio-section-->
     <section class="portfolio">
@@ -115,7 +125,7 @@
                     <div>
                         <h5>Employer: Freelancer</h5><br>
                         <h6>Role: Freelance Front-end Developer<h6>
-                        <h6>Timeline: 2022-date</h6>
+                                <h6>Timeline: 2022-date</h6>
                     </div>
                     <div>
                         <h5>Employer: Google</h5><br>
@@ -131,7 +141,7 @@
             </div>
         </div>
     </section><br>
-    <hr>
+
     <!--portfolio-section-->
 
     <!--skill-section-->
@@ -147,79 +157,95 @@
                     <h3>Technologies and Best Practices</h3>
                     <div class="col-md-2">
                         <p>Angular</p>
-                        <img src="src\images\icons\angular.svg" Fullstack News width="100" height="100"website alt="ICON" />
+                        <img src="src\images\icons\angular.svg" Fullstack News width="100" height="100" website
+                            alt="ICON" />
                     </div>
                     <div class="col-md-2">
                         <p>Django</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" Fullstack News width="100" height="100"website alt="ICON" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" Fullstack News
+                            width="100" height="100" website alt="ICON" />
                     </div>
                     <div class="col-md-2">
                         <p>React-js</p>
-                        <img src="src\images\icons\react.svg" Fullstack News width="100" height="100"website alt="ICON" />
+                        <img src="src\images\icons\react.svg" Fullstack News width="100" height="100" website
+                            alt="ICON" />
                     </div>
                     <div class="col-md-2">
                         <p>Bootstrap</p>
-                        <img src="src\images\icons\bootstrap.svg" Fullstack News width="100" height="100"website alt="ICON" />
+                        <img src="src\images\icons\bootstrap.svg" Fullstack News width="100" height="100" website
+                            alt="ICON" />
                     </div>
                     <div class="col-md-2">
                         <p>TailwindCSS</p>
-                        <img src="src\images\icons\tailwindcss-logo.png" Fullstack News width="100" height="100"website alt="ICON" />
+                        <img src="src\images\icons\tailwindcss-logo.png" Fullstack News width="100" height="100" website
+                            alt="ICON" />
                     </div>
                     <div class="col-md-2">
                         <p>NodeJs</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" Fullstack News width="100" height="100"website alt="ICON" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" Fullstack News
+                            width="100" height="100" website alt="ICON" />
                     </div>
-                </div> <br><hr>
+                </div> <br>
+
                 <div class="col-md-12">
                     <h3>Top Programming Languages</h3>
                     <div class="col-md-2">
                         <p>JavaScript</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" Fullstack News width="100" height="100"website alt="JavaScript" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+                            Fullstack News width="100" height="100" website alt="JavaScript" />
                     </div>
                     <div class="col-md-2">
                         <p>HTML</p>
-                        <mg src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" Fullstack News width="100" height="100"website alt="HTML" />
+                        <mg src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                            Fullstack News width="100" height="100" website alt="HTML" />
                     </div>
                     <div class="col-md-2">
                         <p>CSS</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" Fullstack News width="100" height="100"website alt="CSS" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                            Fullstack News width="100" height="100" website alt="CSS" />
                     </div>
                     <div class="col-md-2">
                         <p>Python</p>
-                        <img src="src\images\icons\python.svg" Fullstack News width="100" height="100"website alt="Python" />
+                        <img src="src\images\icons\python.svg" Fullstack News width="100" height="100" website
+                            alt="Python" />
                     </div>
                     <div class="col-md-2">
                         <p>C</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/35/20190417225046%21The_C_Programming_Language_logo.svg" Fullstack News width="100" height="100"website alt="c" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/35/20190417225046%21The_C_Programming_Language_logo.svg"
+                            Fullstack News width="100" height="100" website alt="c" />
                     </div>
                     <div class="col-md-2">
                         <p>C#</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg" Fullstack News width="100" height="100"website alt="c#" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg" Fullstack
+                            News width="100" height="100" website alt="c#" />
                     </div>
                 </div><br>
                 <div class="col-md-12">
                     <h3>Web Tools</h3>
                     <div class="col-md-3">
                         <p>Canva</p>
-                        <img src="src\images\icons\canva-logo.png" Fullstack News width="100" height="100"website alt="canva" />
+                        <img src="src\images\icons\canva-logo.png" Fullstack News width="100" height="100" website
+                            alt="canva" />
                     </div>
                     <div class="col-md-3">
                         <p>Wix</p>
-                        <img src="src\images\icons\wix.svg" Fullstack News width="100" height="100"website alt="wix">
+                        <img src="src\images\icons\wix.svg" Fullstack News width="100" height="100" website alt="wix">
                     </div>
                     <div class="col-md-3">
                         <p>Figma</p>
-                        <img src="src\images\icons\figma-logo.png" Fullstack News width="100" height="100"website alt="figma" />
+                        <img src="src\images\icons\figma-logo.png" Fullstack News width="100" height="100" website
+                            alt="figma" />
                     </div>
                     <div class="col-md-3">
                         <p>Netlify</p>
-                        <img src="src\images\icons\Netlify_logo.svg" Fullstack News width="100" height="100"website alt="netlify" />
+                        <img src="src\images\icons\Netlify_logo.svg" Fullstack News width="100" height="100" website
+                            alt="netlify" />
                     </div>
                 </div>
             </div>
         </div>
     </section><br>
-    <hr>
+
     <!--skills-section-->
 
     <!--projects-section-->
@@ -291,7 +317,7 @@
             </div>
         </div>
     </section><br>
-    <hr>
+
     <!--projects-section-->
 
     <!--contacts-section-->
@@ -309,26 +335,30 @@
                         <p>
                             <span>
                                 <a href="https://wa.me/+254757768262">
-                                    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp me" width="150"/>
-                                   </a>&nbsp;&nbsp;
+                                    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+                                        alt="whatsapp me" width="150" />
+                                </a>&nbsp;&nbsp;
                             </span>
                         </p>
-                            <span>
-                                <a href="https://www.linkedin.com/in/john-mwega">
-                                    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" width="150"/>
-                                  </a>&nbsp;&nbsp;
-                            </span>
+                        <span>
+                            <a href="https://www.linkedin.com/in/john-mwega">
+                                <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"
+                                    alt="linkedin" width="150" />
+                            </a>&nbsp;&nbsp;
+                        </span>
                         <p>
                             <span>
                                 <a href="https://github.com/CodeDroid999/CodeDroid999">
-                                    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github" width="150"/>        
-                                  </a>&nbsp;&nbsp;
+                                    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                                        alt="github" width="150" />
+                                </a>&nbsp;&nbsp;
                             </span>
                         <p>
                             <span>
                                 <a href="mailto:johmwegah@gmail.com">
-                                    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="mail me" width="150"/>
-                                   </a>&nbsp;&nbsp;
+                                    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+                                        alt="mail me" width="150" />
+                                </a>&nbsp;&nbsp;
                             </span>
                         </p>
                     </div>
@@ -366,7 +396,7 @@
             </div>
         </div>
     </section><br>
-    <hr>
+
     <!--contacts-section-->
     <!--footer-->
     <footer id="footer">

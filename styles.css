@@ -9,6 +9,7 @@ body {
   padding: 0px;
   border-radius: -10px;
   text-align: center;
+  
 }
 
 h2 {
@@ -71,13 +72,6 @@ h6{
   color: rgb(22, 22, 22); 
 }
 
-hr{
-  padding:5px;
-  margin:0px;
-  color:black;
-  background-color: #545353;
-}
-
 footer{
   display:inline !important;
   height:100px !important;
@@ -86,74 +80,77 @@ footer{
 }
 
 
-
+/* Add a black background color to the top navigation */
 nav {
-  background-color: rgb(97, 96, 96);
-  color:white;
-  float: left;
-  width: 100%;
-  height: auto;
+  display:inline;
+  background-color: #333;
+  overflow: hidden;
+  height: 100px;
   margin: 0px;
   padding: 0px;
-  align-items: center;
+  align-items: right;
   justify-content: center;
 }
 
-ul ,span a{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: auto;
+/* Style the links inside the navigation bar */
+nav a {
+float: left;
+text-align: center;
+padding: 20px 50px 20px 50px;
+color: #9a1709;
+text-decoration: none;
+font-size: 22px;
+text-decoration: none;
 }
 
-li {
-  display: block;
-  float: left;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  width: 100%;
+/* Change the color of links on hover */
+nav a:hover {
+background-color: #ddd;
+color: black;
+text-decoration: none;
 }
 
-li a {
-  font-size: 1.5em;
-  color: white;
-  height: auto;
-  padding: 25px;
-  text-decoration: none;
-  display: block;
+/* Add a color to the active/current link */
+nav a.active {
+background-color: #9a1709;
+color: white;
 }
 
-
-a:hover {
-  color: rgb(181, 14, 14);
-  background-color: rgb(62, 61, 59);
-}
-
-a.active {
-  color: white;
-  background-color: rgb(84, 83, 81);
+/* Right-aligned section inside the top navigation */
+.nav-right {
+float: right;
 }
 
 
-#navbar {
+/* Styling the home section */
+#home {
+  display:flex;
+  width:100%;
+}
+
+
+/* Style the portfolio avatar */
+#avatar{
   display: flex;
   float: left;
+  position:relative;
   margin: 0px;
+  height: 100%;
+  object-fit: cover !important;
   padding: 0px;
-  min-width: 50%;
-  min-height: 500px;
 }
 
+/* Style the portfolio brand-logo */
 #brand {
   display: flex;
   float: right;
   margin: 0px;
+  height: 100%;
+  object-fit: cover !important;
   padding: 0px;
-  min-width: 50%;
-  min-height: 500px;
 }
 
+/* Style the about-section */
 .about{
   background-color:antiquewhite;
   color:black;
@@ -166,6 +163,7 @@ a.active {
   justify-content: center;
 }
 
+/* Style the skills section */
 .skills{
   background-color:antiquewhite;
   color:black;
@@ -178,6 +176,7 @@ a.active {
   justify-content: center;
 }
 
+/* Style the projects section*/
 .projects{
   background-color:antiquewhite;
   color:black;
@@ -190,7 +189,7 @@ a.active {
   justify-content: center;
 }
 
-
+/* Style the rows */
 .row {
   padding: 0px;
   margin: 0px;
@@ -198,6 +197,7 @@ a.active {
   height:auto;
 }
 
+/* Style the half screen columns */
 .col-md-6 {
   position:relative;
   margin: 0px;
@@ -205,12 +205,7 @@ a.active {
   min-height: 500px;
 }
 
-.brand {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
+/* Styling the section headers */
 .section-header{
   position:relative;
   margin: 0px;
@@ -219,6 +214,7 @@ a.active {
   width:100%;
 }
 
+/* Styling the sub-section headers */
 .contacts-subsection-header{
   position:relative;
   margin: 0px;
@@ -227,11 +223,7 @@ a.active {
   width:100%;
 }
 
-#about{
-  background-image: url("src\images\bg-image-1.jpg");
-  background-repeat: no-repeat, repeat;
-}
-
+/* Styling the skills section */
 #skills{
 position: relative;
 display:block;
@@ -240,12 +232,14 @@ min-width: 100%;
 height:100%;
 }
 
+/* Styling the projets section */
 #projects{
   width:100%;
   height:auto;
   position:relative;
 }
 
+/* Styling the contacts section */
 #contacts{
 position:relative;
 display:flex;
@@ -258,6 +252,7 @@ padding:0px;
 margin:0px;
 }
 
+/* Styling the contacts section */
 #contacts-section{
 position:relative;
 display:flex;
@@ -266,6 +261,7 @@ height:auto;
 min-width:47%;
 }
 
+/* Styling the conacts form */
 #contacts-form{
   position:relative;
   display:flex;
@@ -273,7 +269,8 @@ min-width:47%;
   height:auto;
   min-width:47%;
   }
-  
+
+  /* Styling the about paragraph */
 .about-paragraph {
   height: auto;
   min-width: 100%;
@@ -283,7 +280,7 @@ min-width:47%;
   font-size: 2em;
 }
 
-
+/* Styling the buttons */
 button {
   border: none;
   color: maroon;
@@ -297,6 +294,7 @@ button {
   background-color: #545353;
 }
 
+/* Styling the buttons when a  mouse is over*/
 button:hover {
   color: white;
   background-color: maroon;
@@ -304,6 +302,7 @@ button:hover {
   transform: scale(1.2);
 }
 
+/* Styling the button */
 .button {
   height: auto;
   width: 100%;
@@ -312,6 +311,7 @@ button:hover {
   float: left;
 }
 
+/* Styling the portfolio section */
 .portfolio{
   background-color:antiquewhite;
   color:black;
@@ -324,30 +324,28 @@ button:hover {
   justify-content: center;
 }
 
+/* Styling the resume-list element*/
 .resume-list{
   float:left;
   align-items: left;
   justify-content: left;
 }
 
+/* Styling the employment-list element*/
 .employment-list{
   float:left;
   align-items: left;
   justify-content: left;  
 }
 
-.educatioin-list{
+/* Styling the education-list element*/
+.education-list{
   float:left;
   align-items: left;
   justify-content: left;  
 }
 
-
-.col-md-6{
-  margin:0px;
-  padding:0px;
-}
-
+/* Styling the full-width columns */
 .col-md-12{
   padding: 0px;
   margin:0px;
@@ -359,24 +357,21 @@ button:hover {
   display: block !important;
 }
 
+/* Styling the 1/6 width columns*/
 .col-md-2{
   display:block;
   align-items: center;
   justify-content: center;
 }
 
-.subsection-header{
-  height:auto;
-  width:100%;
-  float:left; 
-}
-
+/* Styling the cards element*/
 .card{
   min-width: 47%;
   padding: 0px;
   margin:0px;
 }
 
+/* Styling the project1 and project2 */
 #project-1 , #project-3 {
   padding: 5px;
   margin:5px;
@@ -387,6 +382,7 @@ button:hover {
   float:left;
 }
 
+/* Styling the project2 and project4 */
 #project-2, #project-4{
   padding: 5px;
   margin:5px;
@@ -397,11 +393,13 @@ button:hover {
   float:right;
 }
 
+/* Styling the containers */
 .container{
    padding-top: 15px;
    padding-bottom: 10px;
 }
 
+/* Styling the social links*/
 #social-links{
   padding:0px;
   margin:0px;
@@ -411,6 +409,7 @@ button:hover {
   text-align:center
 }
 
+/* Styling the textarea and input elements*/
 textarea , input{
   width:100%;
 }
@@ -420,33 +419,34 @@ textarea , input{
   padding:0px;
 }
 
-#contacts-liks.col-md-6{
+/* Styling the social links column*/
+#contacts-links.col-md-6{
   padding:5px;
 }
 
+/* Styling the label elements*/
 label{
   width:100%;
   padding:5px;
   text-align: left;
 }
 
+/* Styling the article elements*/
 article{
   padding:20px;
 }
 
-form_email{
+/* Styling the form email input*/
+#form_email{
   height: 1em;
 }
- br{
-  padding:5px
- }
- #skills.row{
+
+/* Styling the skills column*/
+#skills.row{
   display:block !important;
   position:relative;  
 }
-
-
-
+/* Styling the skills column*/
 #skills.col-md-12{
   display:inline !important;
 }
