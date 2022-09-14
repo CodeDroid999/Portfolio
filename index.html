@@ -299,7 +299,7 @@
                             <img src="src\images\icons\wix.svg" width="100" height="100" website alt="wix">
                             <p>A multimedia web tool for creating professional websites.</p>
                         </div>
-                        <div class="col-md- col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <p>Figma</p>
                             <img src="src\images\icons\figma-logo.png" width="100" height="100" website alt="figma" />
                             <p>A collaborative web application for interface design. </p>
@@ -460,7 +460,7 @@
                         <div class=" text-left mt-5 ">
                             <h5>...or just write me a message.</h5><br>
                         </div>
-                        <form id="contact-form" action="johmwegah@gmail.com" role="form"  autocomplete="on" name="myForm">
+                        <form id="contact-form" action="mailto:johmwegah@gmail.com" role="form"  autocomplete="on" name="myForm">
 
                             <label for="form_name">Name</label><br>
                             <input id="form_name" type="text" name="name" class="form-control"
@@ -479,9 +479,11 @@
                                 placeholder="Write your message here." rows="10" required="required"
                                 data-error="Please, leave me a message." width="100%"></textarea><br>
                             <div class="button">
-                                <button type="submit">Send Message</button>
+                                <button type="submit" onclick="typeWriter()">Send Message</button>
                             </div>
-
+                            <div>
+                                <p id="thanks"></p>
+                            </div>
                         </form>
                     </div>
                 </div>
