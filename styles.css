@@ -76,7 +76,7 @@ p{
   margin-right: 0px !important;
   text-align: left;
   justify-content:center;
-  padding-left:50px;
+  padding-left: 50px;
 }
 
 hr {
@@ -120,19 +120,6 @@ nav a:hover {
   color: black;
   text-decoration: none;
 }
-
-/*content*/
-.content {
-  padding: 16px;
-}
-
-/*making the the navbar sticky*/
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 
 /* Add a color to the active/current link */
 nav a.active {
@@ -298,8 +285,7 @@ nav a.active {
   display: flex;
   float: right;
   height: auto;
-  min-width: 45%;
-  padding-bottom: 0px;
+  min-width: 47%;
 }
 
 /* Styling the about paragraph */
@@ -363,7 +349,12 @@ button:hover {
   justify-content: left;
 }
 
-
+/* Styling the items in resume list element*/
+.employment-list,.education-list,.voluntary-list, .internships-list{
+  float: left;
+  align-items: left;
+  justify-content: left;
+}
 
 /* Styling the full-width columns */
 .col-md-12 {
@@ -445,7 +436,7 @@ button:hover {
 /* Styling the textarea and input elements*/
 textarea,
 input {
-  width: 70% !important;
+  width: 100%;
 }
 
 
@@ -496,7 +487,7 @@ article {
 .resume-contents{
   justify-content: left;
   align-items: left;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .card-img-top{
