@@ -140,17 +140,6 @@ nav a.active {
 }
 
 
-/* Style the portfolio avatar */
-#avatar {
-  display: flex;
-  float: left;
-  position: relative;
-  margin: 0px;
-  height: 100%;
-  object-fit: cover !important;
-  padding: 0px;
-}
-
 /* Style the portfolio brand-logo */
 #brand {
   display: flex;
